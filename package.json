@@ -1,0 +1,46 @@
+{
+  "name": "nightwatch-with-page-object-pattern",
+  "version": "1.0.0",
+  "description": "This is a nightwatch project built on page object pattern",
+  "main": "index.js",
+  "scripts": {
+    "post install": "node nightwatch.conf.js",
+    "test": ".node_modules/.bin/nightwatch --env local"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shandilyamaramraju/Nightwatch-With-Page-Object-Pattern.git"
+  },
+  "keywords": [
+    "nightwatch"
+  ],
+  "author": "Shandilya Maramraju",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shandilyamaramraju/Nightwatch-With-Page-Object-Pattern/issues"
+  },
+  "homepage": "https://github.com/shandilyamaramraju/Nightwatch-With-Page-Object-Pattern#readme",
+  "dependencies": {
+    "env2": "^2.2.0",
+    "lodash": "^4.17.5",
+    "nightwatch": "^0.9.20"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-jest": "^22.4.3",
+    "data-driven": "^1.4.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "lint-staged": "^7.0.0",
+    "mime-types": "^2.1.18",
+    "nodemon": "^1.17.2",
+    "prettier": "^1.11.1",
+    "regenerator-runtime": "^0.11.1",
+    "selenium-server-standalone-jar": "^3.9.1",
+    "selenium-standalone": "^6.13.0"
+  }
+}
